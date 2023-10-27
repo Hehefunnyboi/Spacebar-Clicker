@@ -12,3 +12,8 @@ function addHit(){
   hits++;
   document.getElementById("timesclicked").innerHTML = "Times Clicked: " + hits;
 }
+
+function reset(){
+  hits = 0
+  document.getElementById("timesclicked").innerHTML = "Times Clicked: 0"
+}
